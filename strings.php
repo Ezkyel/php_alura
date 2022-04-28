@@ -1,0 +1,20 @@
+<?php
+
+$idade = 21;
+
+//Se deixar com aspas simples o php não vai compilar $idade como variável
+echo 'Olá Mundo, minha idade é: $idade';
+
+//Teria que usar uma notação de pontos
+echo 'Olá Mundo, minha idade é: ' . $idade;
+
+//Com aspas duplas ocorre inferência de variáveis
+echo "Olá mundo, minha idade é $idade.";
+
+//PHP não quebra linhas, todos os testos acima serão impressos um uma única linha.
+
+//Para ter quabra de linha é utilizado \n  mas esse formato pode acarretar problemas em diferente SOs
+echo "\nOlá mundo, minha idade é $idade.";
+
+//A forma mais segura de quebrar linhas é a concatenação com .PHP_EOL (PHP_EndOfLine).
+echo "Olá mundo, minha idade é $idade." . PHP_EOL;
