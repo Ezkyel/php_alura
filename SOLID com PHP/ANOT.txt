@@ -15,3 +15,11 @@ Módulo 1
 		Acoplamento é a dependência entre classes
 		Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
 		Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais sobre isso)
+		
+Módulo 2
+
+	Cada classe deve conhecer e ser responsável por suas próprias regras de negócio
+
+	O princípio Aberto/Fechado (OCP) diz que um sistema deve ser aberto para a extensão, mas fechado para a modificação Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
+
+	Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
